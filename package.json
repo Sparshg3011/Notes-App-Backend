@@ -5,9 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon index.js",
-    "build" : "npm i"
-  },
+    "server": "nodemon index.js",  
+    "build": "npm i",
+    "start": "nodemon index.js" 
+  }
+  ,
   "keywords": ["react", "mern", "mongodb", "express", "nodejs", "notes", "notes-app"],
   "author": "Sparsh",
   "license": "ISC",
